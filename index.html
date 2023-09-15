@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html lang="pt">
+
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Pesquisa Plataforma de Jogos Digitais</h1>
+    <p id="description">Obrigada pelo seu tempo! Essa pesquisa nos ajudará a conhecer melhor os nossos clientes.</p>
+    <div>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label">
+            Nome: <input id="name" type="text" required placeholder="Nome"></input>
+          </label>
+          <label id="email-label">
+            Email: <input id="email" type="email" required placeholder="E-mail"></input>
+          </label>
+          <label id="number-label">
+            Idade: <input id="number" type="number" min="10" max="100" required placeholder="Idade"></input> 
+          </label>
+          <label>
+          Qual sua principal ocupação?
+          <select id="dropdown">
+            <option value="1">(Escolha um)</option>
+            <option value="2">Cursando ensino fundamental</option>
+            <option value="3">Cursando ensino médio</option>
+            <option value="4">Cursando ensino superior</option>
+            <option value="5">Trabalho em tempo integral</option>
+            <option value="6">Estágio</option>
+            <option value="7">Outro</option>
+           </select>
+           <div>
+          <label>Você recomendaria nossa plataforma para um amigo?</label>
+           <input type="radio" name="recomendation" value="recommend" class="inline" />Recomendaria
+        </label>
+        <label>
+          <input type="radio" name="recomendation" value="not-recommend" class="inline" />Não recomendaria
+        </label>
+        <label>
+          <input type="radio" name="recomendation" value="not-know" class="inline" />Não tenho certeza
+        </label>
+          </div>
+          <label>Quais seus gêneros de jogos favoritos?</label>
+          <label>
+            <input type="checkbox" value="sectors" class="inline">FPS</input>
+          </label>
+          <label>
+            <input type="checkbox" value="sectors" class="inline">RPG</input>
+          </label>
+          <label>
+            <input type="checkbox" value="sectors" class="inline">Simulação</input>
+          </label>
+          <label>
+            <input type="checkbox" value="sectors" class="inline">Puzzle</input>
+          </label>
+          </label>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
