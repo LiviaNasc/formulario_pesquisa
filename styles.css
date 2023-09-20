@@ -1,9 +1,12 @@
 body {
-  width: 80%;
-  height: 100vh;
-  margin: 0;
-  font-family: Tahoma;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
+  background-image: url('https://img.freepik.com/fotos-gratis/ilustracao-3d-de-fundo-azul-e-roxo-futurista-techno-sci-fi-luzes-cool_181624-57587.jpg?w=1380&t=st=1695000657~exp=1695001257~hmac=0508a91cb324f9e7fff5a0356952da985d4899b595094f14568b7c83cd24c374'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  color: #ffff;
+background-attachment: fixed;
+font-weight: 400;
 }
 
 select,
@@ -11,4 +14,24 @@ textarea{
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 2em;
+}
+
+#title {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+#description {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#survey-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
 }
