@@ -35,3 +35,54 @@ textarea{
     width: 60%;
     margin: auto;
 }
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+option{
+    color: black;
+}
+
+.enviar {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+textarea {
+    height: 100px;
+}
+
+.inline {
+    display: inline-block;
+    margin-right: 10px;
+}
